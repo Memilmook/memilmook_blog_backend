@@ -10,7 +10,6 @@ const auth = require('./auth')
 const comments = require('./comments')
 const menus = require('./menus').router
 
-const catbook = require('./catbook')
 
 const { PORT, MONGO_URI } = process.env
 
