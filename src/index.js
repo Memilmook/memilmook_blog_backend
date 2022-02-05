@@ -104,5 +104,5 @@ app.listen(port, () => {
 //heroku sleep 방지
 const http = require('http')
 setInterval(function () {
-  http.get('https://memilmook-github-backend.herokuapp.com/')
+  http.get('http://memilmook-github-backend.herokuapp.com/')
 }, 600000) //10분
